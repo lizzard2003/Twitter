@@ -1,12 +1,12 @@
-# Project 3 - *Name of App Here*
+# Project 3 - Twitter
 
 Twitter is a basic twitter app to read your tweets.
 
 Time spent: 12 hours spent in total
 
-## User Stories
+I found the making of this app challenging yet rewarding. I never thought I could creat somthing like this .
 
-The following **required** functionality is completed:
+The following 7 functionality are completed:
 
 - [x] User sees app icon in home screen and styled launch screen. (1pt)
 - [x] User can log in. (1pt)

@@ -74,7 +74,7 @@
             </objects>
             <point key="canvasLocation" x="1039" y="169"/>
         </scene>
-        <!--Home Table View Controller-->
+        <!--Home-->
         <scene sceneID="eKq-HF-XZa">
             <objects>
                 <tableViewController id="WVe-ZS-aXg" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -137,7 +137,14 @@
                             <outlet property="delegate" destination="WVe-ZS-aXg" id="ety-60-srV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Q2H-We-CWy"/>
+                    <navigationItem key="navigationItem" title="Home" id="Q2H-We-CWy">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="IHN-uN-eYd">
+                            <color key="tintColor" systemColor="systemPurpleColor"/>
+                            <connections>
+                                <action selector="onLogout:" destination="WVe-ZS-aXg" id="7cX-6C-vO2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ojt-kS-SYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

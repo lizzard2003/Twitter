@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Customers" (
+	"customer_id"	INTEGER,
+	"first_name"	VARCHAR(100) NOT NULL,
+	"last_name"	VARCHAR(100) NOT NULL,
+	"email"	VARCHAR(255) NOT NULL UNIQUE,
+	"password_hash"	VARCHAR(255) NOT NULL,
+	"registration_date"	TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY("customer_id")
+);
+COMMIT;
